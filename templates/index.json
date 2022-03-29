@@ -177,62 +177,6 @@
         "padding_bottom": 32
       }
     },
-    "1648573984e265a672": {
-      "type": "multicolumn",
-      "blocks": {
-        "1648573984d2cf4976-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/logoGatineau450.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1648573984d2cf4976-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FQSC450-1.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "1648573984d2cf4976-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/british450.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1648573984d2cf4976-1",
-        "1648573984d2cf4976-2",
-        "1648573984d2cf4976-0"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1648577219663293da": {
       "type": "borderless-multicolumn",
       "blocks": {
@@ -295,7 +239,6 @@
     "slideshow",
     "image-with-text-1",
     "multicolumn",
-    "1648573984e265a672",
     "1648577219663293da"
   ]
 }
