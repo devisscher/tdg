@@ -152,13 +152,23 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "9f068db4-8244-4082-b43a-4007335b7ac5": {
+          "type": "column",
+          "settings": {
+            "title": "Tour d'Honeur",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column-1",
         "column-2",
         "column-3",
-        "c4b1ebe1-1fcb-46a7-b068-fdcea4ebe3b8"
+        "c4b1ebe1-1fcb-46a7-b068-fdcea4ebe3b8",
+        "9f068db4-8244-4082-b43a-4007335b7ac5"
       ],
       "settings": {
         "title": "Multicolumn",
