@@ -221,3 +221,7 @@
   margin-left: 0.8rem;
   white-space: nowrap;
 }
+
+.no-border {
+  border: none;
+}
