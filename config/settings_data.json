@@ -148,7 +148,8 @@
           "image": {
             "type": "image",
             "settings": {
-              "image_width": 95,
+              "image": "shopify:\/\/shop_images\/171066818_473112600500963_9156855361339380090_n.png",
+              "image_width": 200,
               "alignment": "right"
             }
           }
@@ -159,7 +160,7 @@
           "image"
         ],
         "settings": {
-          "color_scheme": "accent-1",
+          "color_scheme": "background-2",
           "newsletter_enable": true,
           "newsletter_heading": "Abonnez-vous à notre infolettre",
           "show_social": true,
