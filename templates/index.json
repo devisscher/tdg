@@ -149,8 +149,8 @@
           "settings": {
             "title": "100% Femmes",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "En savoir plus",
+            "link": "shopify:\/\/pages\/100-pourcent-femmes"
           }
         },
         "9f068db4-8244-4082-b43a-4007335b7ac5": {
