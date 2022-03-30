@@ -35,9 +35,11 @@
           {{ 'page' | placeholder_svg_tag: 'page-placeholder' }}
         </div>
       {%- endif -%}
-      {% unless section.settings.page.metafields.link == blank %}
-      	<li><strong>Hello</strong> {{ section.settings.page.metafields.link }}</li>
-      {% endunless %}
+      {% if sections.page.metafields.accentuate.link %}
+       <div>
+         {{ sections.page.metafields.accentuate.link }}  
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>
