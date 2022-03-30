@@ -35,9 +35,9 @@
           {{ 'page' | placeholder_svg_tag: 'page-placeholder' }}
         </div>
       {%- endif -%}
-      {% if page.metafields.accentuate.link %}
+      {% if section.settings.page.metafields.accentuate.link %}
        <div>
-         {{ page.metafields.accentuate.link }}  
+         {{ section.settings.page.metafields.accentuate.link }}  
         </div>
       {% endif %}
     </div>
