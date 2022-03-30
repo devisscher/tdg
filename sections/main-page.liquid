@@ -25,6 +25,12 @@
   <div class="rte">
     {{ page.content }}
   </div>
+   {% if section.settings.page.metafields.accentuate.link %}
+       <div>
+         {{ section.settings.page.metafields.accentuate.link }}  
+        </div>
+      {% endif %}
+      Hello
 </div>
 
 {% schema %}
