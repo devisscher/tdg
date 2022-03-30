@@ -25,11 +25,10 @@
   <div class="rte">
     {{ page.content }}
   </div>
-  Test
   {{page.metafields}}
    {% if page.metafields.page-link.link %}
     <div class="banner__buttonsbanner__buttons--multiple">
-        <a role="link" aria-disabled="true"href="{{ page.metafields.page-link.link }}" class="button button--primary">Accéder à l'inscription</a>
+        <a role="link" aria-disabled="false" href="{{ page.metafields.page-link.link }}" class="button button--primary">Accéder à l'inscription</a>
     </div>
   	{% endif %}
 </div>
