@@ -122,8 +122,8 @@
           "settings": {
             "title": "UCI",
             "text": "<p>Use a combination of images and text to share key product information or brand values.<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "En savoir plus",
+            "link": "shopify:\/\/pages\/uci"
           }
         },
         "column-2": {
