@@ -28,9 +28,10 @@
   Test
   {{page.metafields}}
    {% if page.metafields.page-link.link %}
-    <div>
-      {{ page.metafields.page-link.link }}  
-    </div>
+
+  <div class="banner__buttonsbanner__buttons--multiple">
+      <a role="link" aria-disabled="true"href="{{ page.metafields.page-link.link }}" class="button button--primary"></a>
+  </div>
   {% endif %}
 </div>
 
