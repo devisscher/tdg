@@ -35,6 +35,9 @@
           {{ 'page' | placeholder_svg_tag: 'page-placeholder' }}
         </div>
       {%- endif -%}
+      {% unless section.settings.page.metafields.link == blank %}
+      	<li><strong>Hello</strong> {{ section.settings.page.metafields.link }}</li>
+      {% endunless %}
     </div>
   </div>
 </div>
