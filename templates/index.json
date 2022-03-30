@@ -158,8 +158,8 @@
           "settings": {
             "title": "Tour d'Honeur",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "En savoir plus",
+            "link": "shopify:\/\/pages\/tour-dhoneur"
           }
         }
       },
