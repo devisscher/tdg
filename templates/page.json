@@ -1,1 +1,62 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":28,"padding_bottom":28}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16486594822d02072c": {
+      "type": "image-banner",
+      "blocks": {
+        "1648659482e28d7f27-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inscrivez-vous",
+            "heading_size": "h1"
+          }
+        },
+        "1648659482e28d7f27-1": {
+          "type": "text",
+          "settings": {
+            "text": "Ce lien vous amenera à l'inscription pour cet événement",
+            "text_style": "body"
+          }
+        },
+        "1648659482e28d7f27-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Inscription",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1648659482e28d7f27-0",
+        "1648659482e28d7f27-1",
+        "1648659482e28d7f27-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16486594822d02072c"
+  ]
+}
