@@ -21,7 +21,7 @@
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
   {% if page.metafields.accentuate.featured_image %}
     <img
-         src="{{ page.metafields.accentuate.featured_image }}"
+         src="{{ page.metafields.accentuate.featured_image.original_src }}"
          loading="lazy"
          >
   {%- endif -%}
