@@ -20,10 +20,9 @@
 
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
   {% if page.metafields.accentuate.featured_image %}
-    <img
-         src="{{ page.metafields.accentuate.featured_image.original_src }}"
-         loading="lazy"
-         >
+    {% for image in page.metafields.accentuate.featured_image %}
+      <img src="{{ image.src }}" alt="{{ image.alt }}"/>
+    {% endfor %}
   {%- endif -%}
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
