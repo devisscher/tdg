@@ -21,7 +21,7 @@
 	{% for image in page.metafields.accentuate.featured_image %}   
     #bannerimage {
       width: 100%;
-      background-image: url({{img.cloudinary_src}})
+      background-image: url("{{image.cloudinary_src}}")
       height: 405px;
       background-color: purple;
       background-position: center;
