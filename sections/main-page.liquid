@@ -30,12 +30,11 @@
  {%- endif -%}
 
 {%- endstyle -%}
-
+<div id="bannerimage"></div>
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
   {% if page.metafields.accentuate.featured_image %}
-    {% for image in page.metafields.accentuate.featured_image %}
-      <div id="bannerimage"></div>
-    {% endfor %}
+    
+      
   {%- endif -%}
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
