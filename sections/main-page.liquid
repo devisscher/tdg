@@ -22,6 +22,10 @@
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
   </h1>
+   {% if page.metafields.accentuate.featured_image %}
+  
+  {% endif %}
+  
   <div class="rte">
     {{ page.content }}
   </div>
