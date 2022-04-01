@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
 
+
 <noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
@@ -16,12 +17,24 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  {% if page.metafields.accentuate.featured_image %}
+	{% for image in page.metafields.accentuate.featured_image %}   
+    #bannerimage {
+      width: 100%;
+      background-image: url({{image.src}});
+      height: 405px;
+      background-color: purple;
+      background-position: center;
+    }
+ 	{% endfor %}
+ {%- endif -%}
+
 {%- endstyle -%}
 
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
   {% if page.metafields.accentuate.featured_image %}
     {% for image in page.metafields.accentuate.featured_image %}
-      <img src="{{ image.src }}" alt="{{ image.alt }}"/>
+      <div id="bannerimage"></div>
     {% endfor %}
   {%- endif -%}
   <h1 class="main-page-title page-title h0">
