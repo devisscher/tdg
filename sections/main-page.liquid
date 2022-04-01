@@ -19,15 +19,16 @@
 {%- endstyle -%}
 
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
+  {% if page.metafields.accentuate.featured_image %}
+    <img
+         src="{{ section.settings.image | image_url: width: 1500 }}"
+         loading="lazy"
+         >
+  {%- endif -%}
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
   </h1>
-  {% if page.metafields.accentuate.featured_image %}
-    <img
-          src="{{ section.settings.image | image_url: width: 1500 }}"
-          loading="lazy"
-         >
-  {%- endif -%}
+
 
   
   <div class="rte">
