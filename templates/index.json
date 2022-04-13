@@ -158,7 +158,7 @@
           "type": "column",
           "settings": {
             "title": "Tour d'Honeur",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Le Tour de Gatineau tient à vous honorer pour le travail que vous avez fait pour maintenir les sports et les loisirs en vie dans notre communauté.  <\/p>",
             "link_label": "En savoir plus",
             "link": "shopify:\/\/pages\/tour-dhoneur"
           }
