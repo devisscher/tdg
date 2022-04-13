@@ -47,15 +47,6 @@
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "UCI",
-            "text": "<p>Annulé pour la saison 2022.<\/p>",
-            "link_label": "En savoir plus",
-            "link": "shopify:\/\/pages\/uci"
-          }
-        },
         "column-2": {
           "type": "column",
           "settings": {
@@ -91,14 +82,23 @@
             "link_label": "En savoir plus",
             "link": "shopify:\/\/pages\/tour-dhoneur"
           }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "title": "UCI",
+            "text": "<p>Annulé pour la saison 2022.<\/p>",
+            "link_label": "En savoir plus",
+            "link": "shopify:\/\/pages\/uci"
+          }
         }
       },
       "block_order": [
-        "column-1",
         "column-2",
         "column-3",
         "c4b1ebe1-1fcb-46a7-b068-fdcea4ebe3b8",
-        "9f068db4-8244-4082-b43a-4007335b7ac5"
+        "9f068db4-8244-4082-b43a-4007335b7ac5",
+        "column-1"
       ],
       "settings": {
         "title": "Événements",
