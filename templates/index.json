@@ -44,77 +44,6 @@
         "padding_bottom": 32
       }
     },
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "slide": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_1.png",
-            "heading": "Accrochez-vous aux meilleurs cyclistes au Canada",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 60,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide"
-      ],
-      "settings": {
-        "layout": "grid",
-        "slide_height": "small",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "image-with-text-1": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 32,
-        "padding_bottom": 52
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -188,6 +117,77 @@
         "padding_bottom": 32
       }
     },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_1.png",
+            "heading": "Accrochez-vous aux meilleurs cyclistes au Canada",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 60,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 32,
+        "padding_bottom": 52
+      }
+    },
     "1648577219663293da": {
       "type": "borderless-multicolumn",
       "blocks": {
@@ -247,9 +247,9 @@
   },
   "order": [
     "image-with-text",
+    "multicolumn",
     "slideshow",
     "image-with-text-1",
-    "multicolumn",
     "1648577219663293da"
   ]
 }
