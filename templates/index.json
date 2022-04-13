@@ -131,7 +131,7 @@
           "type": "column",
           "settings": {
             "title": "British GP",
-            "text": "<p>Use a combination of images and text to share key product information or brand values.<\/p>",
+            "text": "<p>Le critérium du British Grand prix, aura lieu devant le pub historique.<\/p>",
             "link_label": "En savoir plus",
             "link": "shopify:\/\/pages\/british-grand-prix"
           }
@@ -140,7 +140,7 @@
           "type": "column",
           "settings": {
             "title": "Coupe du QC",
-            "text": "<p>Use a combination of images and text to share key product information or brand values.<\/p>",
+            "text": "<p>Sanctionnée par la FQSC. <\/p>",
             "link_label": "En savoir plus",
             "link": "shopify:\/\/pages\/coupe-du-qc"
           }
