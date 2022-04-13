@@ -20,7 +20,7 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "En savoir plus",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -81,6 +81,7 @@
     },
     "image-with-text-1": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -121,7 +122,7 @@
           "type": "column",
           "settings": {
             "title": "UCI",
-            "text": "<p>Use a combination of images and text to share key product information or brand values.<\/p>",
+            "text": "<p>Annulé pour la saison 2022.<\/p>",
             "link_label": "En savoir plus",
             "link": "shopify:\/\/pages\/uci"
           }
