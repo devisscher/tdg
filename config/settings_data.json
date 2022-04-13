@@ -140,6 +140,7 @@
           },
           "text": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "heading": "Heading",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
