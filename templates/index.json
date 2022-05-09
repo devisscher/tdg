@@ -20,8 +20,8 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "",
-            "button_link": ""
+            "button_label": "En savoir plus",
+            "button_link": "shopify:\/\/pages\/british-grand-prix"
           }
         }
       },
