@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "De retour en 2022",
+            "heading": "MERCI!",
             "heading_size": "h0"
           }
         },
@@ -20,8 +20,8 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "En savoir plus",
-            "button_link": "shopify:\/\/pages\/british-grand-prix"
+            "button_label": "RESULTATS 2022",
+            "button_link": "https:\/\/fqsc.net\/files\/route\/Resultats\/2022\/2022-06-04-BRITISH\/Resultats-V2.pdf"
           }
         }
       },
