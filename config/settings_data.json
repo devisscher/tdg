@@ -99,19 +99,6 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "Ouverture des inscriptions le 1er mai!",
-              "color_scheme": "accent-1",
-              "link": "shopify:\/\/pages\/contact"
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
         "settings": {
         }
       },
@@ -122,7 +109,7 @@
           "logo": "shopify:\/\/shop_images\/171066818_473112600500963_9156855361339380090_n.png",
           "logo_width": 250,
           "logo_position": "middle-left",
-          "menu": "main-menu",
+          "menu": "",
           "show_line_separator": false,
           "enable_sticky_header": true,
           "margin_bottom": 0
