@@ -191,6 +191,7 @@
     },
     "1648577219663293da": {
       "type": "borderless-multicolumn",
+      "disabled": true,
       "blocks": {
         "164857721942951d16-0": {
           "type": "column",

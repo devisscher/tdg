@@ -118,13 +118,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "link-list": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Événements",
-              "menu": "footer"
-            }
-          },
           "text": {
             "type": "text",
             "disabled": true,
@@ -132,24 +125,14 @@
               "heading": "Heading",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
-          },
-          "image": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/171066818_473112600500963_9156855361339380090_n.png",
-              "image_width": 200,
-              "alignment": "right"
-            }
           }
         },
         "block_order": [
-          "link-list",
-          "text",
-          "image"
+          "text"
         ],
         "settings": {
           "color_scheme": "background-2",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Abonnez-vous à notre infolettre",
           "show_social": true,
           "enable_country_selector": false,
