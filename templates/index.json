@@ -2,6 +2,7 @@
   "sections": {
     "image-with-text": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -120,6 +121,7 @@
     },
     "slideshow": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "slide": {
           "type": "slide",
@@ -245,6 +247,42 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "9ab4fa56-0843-4b32-a80b-51fe93cbf8a1": {
+      "type": "image-banner",
+      "blocks": {
+        "template--14509787709488__9ab4fa56-0843-4b32-a80b-51fe93cbf8a1-1674214488c61d06ad-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tour de Gatineau 2023",
+            "heading_size": "h1"
+          }
+        },
+        "ed31c4ce-db5f-49ba-91e0-a7c42a9078f7": {
+          "type": "text",
+          "settings": {
+            "text": "Du 15 au 17 septembre!",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "template--14509787709488__9ab4fa56-0843-4b32-a80b-51fe93cbf8a1-1674214488c61d06ad-0",
+        "ed31c4ce-db5f-49ba-91e0-a7c42a9078f7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -252,6 +290,7 @@
     "multicolumn",
     "slideshow",
     "image-with-text-1",
-    "1648577219663293da"
+    "1648577219663293da",
+    "9ab4fa56-0843-4b32-a80b-51fe93cbf8a1"
   ]
 }
